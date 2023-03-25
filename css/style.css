@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    gap: 20px;
+}
+.box_1 input {
+    outline: none;
+    border: solid 2px red;
+}
+.poisk {
+    margin: 100px 100px;
+    border: solid 1px red;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.block {
+    display: grid;
+}
+
+
+.modal_form form {
+    display: grid;
+    gap: 10px;
+    width: 350px;
+    margin: 10px auto 0;
+}
+.modal_form form .form_info, .modal_form form .form_dop {
+    display: grid;
+    gap: 5px;
+}
+.modal_form form input[type="text"] {
+    outline: none;
+    border-radius: 10px;
+    padding: 4px 6px;
+    border: solid 1px blue;
+}
+.modal_form form button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 6px;
+    border: solid 1px blue;
+    margin: 0 0 30px 0;
+}
+
+.bod_off {
+    display: none;
+}
+
+.perehod {
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
